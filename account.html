@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TShop: Create an Account</title>
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="icon" type="image/x-icon" href="Images/favicon-65d0fa2362d93.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo"><a href="#" id="logo-a" aria-label="Logo link" data-replace="Tshop"><span>TShop</span></a></div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="index.html" aria-label="Best Sellers">Best Sellers</a></li>
+                <li><a href="index.html" aria-label="Reviews">Reviews</a></li>
+                <li><a href="index.html" id="contact-a" aria-label="Shop">Shop</a></li>
+            </ul>
+            <div class="purchase">
+                <img src="images/account-65d0fa16e6840.webp" alt="account-creator">
+            </div>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>  
+    </nav>
+    <main>
+        <section class="account-form">
+            <form class="form">
+                <p class="title">Register </p>
+                <p class="message"><p class="message">Signup now and get full access to our app. </p>
+                
+                <input class="input" type="text" name="name" placeholder="Name" required id="name">
+                
+                <input class="input" type="text" name="surname" placeholder="Surname" required id="surname">
+                
+                <input class="input" type="number" name="age" placeholder="Age" required id="age">
+        
+                <input class="input" type="email" name="email" placeholder="Email" required id="email">
+        
+                <input class="input" type="password" name="password" placeholder="Password" required id="password">
+        
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="account-form-answers">
+            <div class="answers-container">
+                <label id="form-name"><span class="bold-span">Name: </span><span id="span1"></span></label>
+                <label id="form-surname"><span class="bold-span">Surame: </span><span id="span2"></span></label>
+                <label id="form-age"><span class="bold-span">Age: </span><span id="span3"></span></label>
+                <label id="form-email"><span class="bold-span">Email: </span><span id="span4"></span></label>
+                <label id="form-password"><span class="bold-span">Password: </span><span id="span5"></span></label>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-part1">
+            <h4>Contact us</h4>
+            <h3>Sign Up and get 10% off your first order</h3>
+            <a href="#" id="footer-part1-a" aria-label="Sign up"><p>Sign Up</p></a>
+        </div>
+        <div class="footer-part2">
+            <div class="footer-part2-container">
+                <div class="segment1">
+                    <p>Shop</p><br><br>
+                    <a href="microphones.html" id="segment1-a1" aria-label="Microphones">Microphones</a><br>
+                    <a href="videocameras.html" id="segment1-a2" aria-label="Videocameras">Videocameras</a>
+                </div>
+                <div class="segment2">
+                    <p>Help</p><br><br>
+                    <a href="https://www.facebook.com/data.tezela" target="_blank" aria-label="Mail me" id="segment2-a1">Contact Us</a><br>
+                    <a href="index.html" aria-label="FAQ" id="segment2-a2">FAQ</a>
+                </div>
+                <div class="segment3">
+                    <p>Follow</p><br><br>
+                    <a href="https://www.facebook.com/data.tezela" target="_blank" aria-label="Our Facebook" id="segment3-a1">Facebook</a><br>
+                    <a href="https://www.instagram.com/datatezela/" target="_blank" aria-label="Our Instagram" id="segment3-a2">Instagram</a>
+                </div>
+            </div>
+            <div class="last-part">
+                <p>© 2024 Data Tezelashvili. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="loginForm.js"></script>
+</html>
